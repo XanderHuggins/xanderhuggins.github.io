@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://xanderhuggins.github.io/pages/publications/</loc>
+  </url><url>
     <loc>https://xanderhuggins.github.io/categories/</loc>
   </url><url>
     <loc>https://xanderhuggins.github.io/</loc>
@@ -9,7 +11,5 @@
     <loc>https://xanderhuggins.github.io/pages/</loc>
   </url><url>
     <loc>https://xanderhuggins.github.io/tags/</loc>
-  </url><url>
-    <loc>https://xanderhuggins.github.io/pages/publications/</loc>
   </url>
 </urlset>
