@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on welcome</title>
+    <title>Pages on xander huggins&#39;s research wesbite</title>
     <link>https://xanderhuggins.github.io/pages/</link>
-    <description>Recent content in Pages on welcome</description>
+    <description>Recent content in Pages on xander huggins&#39;s research wesbite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-CA</language><atom:link href="https://xanderhuggins.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,11 +12,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://xanderhuggins.github.io/pages/coverage/</guid>
-      <description>in the news TNC&amp;rsquo;s Cool Green Science. (2023). Why Protected Areas Must Consider What&amp;rsquo;s Beneath the Surface. link
-IIASA news (2023). Exceptional young scientists awarded. link
-Conversation Canada (2022). Ripple effect: As global freshwater basins dry up, the threat to ecosystems and communities grows. link
-The Tyee (2022). When we run out of water. link
-USask news (2022). Global water basins hotspots prioritize ares under threat: USask research. link</description>
+      <description>here is how my work has been covered in the news TNC&amp;rsquo;s Cool Green Science. (2023). Why Protected Areas Must Consider What&amp;rsquo;s Beneath the Surface. Link to story.
+IIASA news. (2023). Exceptional young scientists awarded. Link to story
+Conversation Canada. (2022). Ripple effect: As global freshwater basins dry up, the threat to ecosystems and communities grows. Link to article.
+Popular Science. (2022). The US is losing some of its biggest freshwater reserves.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://xanderhuggins.github.io/pages/outreach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xanderhuggins.github.io/pages/outreach/</guid>
+      <description>here are some scientific outreach initiatives I have participated in and led Panel member in UVic Water Research and the SDGs: A Panel Discussion (2022). Watch the panel discussion here.
+Participating scientist in the inaugural Water Day on the Hill (2020). An event that brought together water scientists across Canada to meet with parliamentarians and senior federal officials to raise awareness around water security in Canada. Read the report about the day of activities here.</description>
     </item>
     
     <item>
@@ -28,7 +37,17 @@ USask news (2022). Global water basins hotspots prioritize ares under threat: US
       <description>pre-prints Rohde, M.M., Albano, C.M., Huggins, X., et al. Mapping groundwater dependent ecosystems globally exposes the fragility of vulnerable ecosystems and communities. In revision at Nature
 Huggins, X., Gleeson, T., Villholth, K.G., Rocha, J.C., Famiglietti, J.S. Global groundwater archetypes based on social, ecological, and Earth system functions. (preprint forthcoming).
 Jaramillo, F., et al. (incl. Huggins, X.). Hydrogeodesy for addressing key hydrological questions and water resource sustainability. (preprint forthcoming)
-peer-reviewed Huggins, X.</description>
+peer-reviewed papers Huggins, X.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://xanderhuggins.github.io/pages/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xanderhuggins.github.io/pages/teaching/</guid>
+      <description>curriculum development I have co-developed a set of resources to support teaching sustainability, equity, and anti-racism in undergraduate civil engineering curriculum. These resources are available on the &amp;ldquo;Learn and Teach Green, People-Centered Civil Engeering website. teaching assistant roles I have lectured, taught labs, and performed other teaching assistant roles in the following courses:
+CIVE 445: Groundwater Hydrology CIVE 440: Hydrology and Hydraulics CIVE 345: Fluid Mechanics CIVE 340: Sustainable Water REsources My mean teaching assistant effectiveness score from end-of-term student surveys is 9.</description>
     </item>
     
   </channel>
