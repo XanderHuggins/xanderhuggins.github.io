@@ -39,15 +39,15 @@
 
     <title>xander huggins&#39; research website</title>
     <link rel="canonical" href="https://xanderhuggins.github.io/" />
-
-
+    
+    
     <link
       href="/index.xml"
       rel="alternate"
       type="application/rss+xml"
       title="xander huggins&#39; research website"
     />
-
+    
     <link
   rel="stylesheet"
   href="https://unpkg.com/tachyons@4.11.1/css/tachyons.min.css"
@@ -83,25 +83,56 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
-    </head>
-  
+
+<style>
+  .full-width-header {
+    width: 200%;
+    position: relative;
+    left: -50%;          
+    background: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-image {
+    display: block;
+    margin: 0 auto;      
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+  }
+
+  @media (min-width: 800px) {
+    .header-image {
+      width: 100%;
+    }
+  }
+</style>
+  </head>
+
   <body
     lang="en-CA"
     class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns"
-    >
+  >
     
+
+<div class="full-width-header">
+  <object
+    type="image/svg+xml"
+    data="/images/research-website-header-image-responsive.svg"
+    class="header-image"
+  ></object>
+</div>
+    </section>
+
     <section id="main">
       <div>
-          
-          
-          
-          
-          <object type="image/svg+xml" data= "/images/research-website-header-image-responsive.svg " style="width:120%"></object>
-          
-          
-           
-        </h1>
         
+
+        <h1 id="title" class="f4">
+          
+        </h1>
+
         <style>
 p { line-height: 1.1em; }
 
@@ -117,11 +148,10 @@ a:hover {
 }
 
 .rounded-box {
-  background-color: #f7f9fb;
-  border: 6px solid #2A80C9;
+  background-color: #E2EDF9;
+  border: 0px solid #2A80C9;
   border-radius: 12px;
   padding: 6px 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   max-width: 100%;
   margin: 2rem auto;
   font-family: system-ui, sans-serif;
@@ -152,11 +182,23 @@ a:hover {
   <div style="font-weight:800; margin-bottom: 0.5em;">recent news</div>
   <div class="news-item">
     <div class="label">August 2025</div>
-    <div class="text">New <a href="https://iopscience.iop.org/article/10.1088/1748-9326/adf127">review paper</a> out in ERL on global data to study groundwater in social-ecological systems</div>
+    <div class="text">
+      New 
+      <a href="https://iopscience.iop.org/article/10.1088/1748-9326/adf127" target="_blank" rel="noopener noreferrer">
+        review paper
+      </a>
+      out in ERL on global open access data to study groundwater in social-ecological systems.
+    </div>
   </div>
   <div class="news-item">
     <div class="label">July 2025</div>
-    <div class="text">I received the <a href="https://cags.ca/prizes/cags-proquest-distinguished-dissertation-award/the-canadian-association-for-graduate-studies-announces-winners-of-2025-cags-proquest-distinguished-dissertation-award/">Distinguished Dissertation Award</a> from CAGS/ProQuest – the top dissertation award in Canada. Huge thanks and gratitude to all of my mentors!</div>
+    <div class="text">
+      I received the 
+      <a href="https://cags.ca/prizes/cags-proquest-distinguished-dissertation-award/the-canadian-association-for-graduate-studies-announces-winners-of-2025-cags-proquest-distinguished-dissertation-award/" target="_blank" rel="noopener noreferrer">
+        Distinguished Dissertation Award
+      </a>
+      from CAGS/ProQuest – the top dissertation award in Canada. Heartfelt thanks and gratitude to all of my mentors!
+    </div>
   </div>
 </div>
 <p>Xander is an NSERC, Killam, and Canadian Space Agency postdoctoral research fellow in the <a href="https://ires.ubc.ca/xander-huggins/">Institute for Resources, Environment and Sustainability</a> at the <span style="color:#0A2343"><strong>university of british columbia</strong></span>. <br/></p>
@@ -180,8 +222,6 @@ a:hover {
 
 
         <ul class="list pl0">
-          
-          
           
         </ul>
       </div>
