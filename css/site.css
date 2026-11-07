@@ -1,0 +1,88 @@
+/* Site-wide styles, loaded on every page (see layouts/partials/head_includes.html) */
+
+/* Wider text column on computer screens. It lines up with the labels in the navigation bar. */
+@media (min-width: 30em) {
+  body.w-60-ns {
+    width: calc(0.84 * min(1200px, 94vw));
+  }
+}
+
+/* Links: thin yellow underline */
+a {
+  color: #111;
+  text-decoration: underline;
+  text-decoration-color: #ebc324;      /* underline colour */
+  text-decoration-thickness: 1.5px;    /* underline thickness */
+  text-underline-offset: 3px;
+}
+
+/* Links when the mouse is over them: yellow box, like the black box in the navigation bar */
+a:hover {
+  color: #111;
+  background-color: #ebc324;           /* box colour */
+  box-shadow: 0 0 0 0.15em #ebc324;    /* widens the box slightly without moving the text */
+  text-decoration: none;
+  border: 0;
+}
+
+/* ---------- Home page ---------- */
+
+/* Welcome text (content/_index.md) */
+.home-content > p {
+  font-family: system-ui, sans-serif;
+  font-size: 1.05em;
+  line-height: 1.5em;
+  margin: 1.5rem 0 0 0;
+}
+
+/* "recent news" box (items are in data/news.yaml; layout in layouts/shortcodes/news.html) */
+.rounded-box {
+  background-color: #EEEEEE;          /* box colour */
+  border-radius: 12px;
+  padding: 6px 10px;
+  max-width: 100%;
+  margin: 2rem auto;
+  font-family: system-ui, sans-serif;
+  line-height: 1.4em;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5em;
+}
+
+.news-header .title {
+  font-weight: 800;
+}
+
+.news-header .hint {
+  font-size: 0.85em;
+  color: #555;
+}
+
+.news-scroll {
+  max-height: 12.75rem;               /* height of the box; older items scroll */
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 110px 1fr;   /* width of the date column */
+  gap: 0px;
+  margin-bottom: 12px;
+}
+
+.news-item .label {
+  font-weight: 600;
+  font-size: 0.95em;
+  color: #111;
+  white-space: nowrap;
+}
+
+.news-item .text {
+  font-size: 1em;
+  color: #111;
+}

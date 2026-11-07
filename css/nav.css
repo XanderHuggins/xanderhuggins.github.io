@@ -1,0 +1,45 @@
+/* Navigation bar shown at the top of every page (layouts/partials/site-nav.html) */
+
+.site-nav-outer {
+  position: relative;
+  z-index: 1;                                   /* keeps the bar on top of the home-page banner */
+  width: min(1200px, 94vw);                     /* same width as the home-page banner */
+  margin-left: calc(50% - min(600px, 47vw));    /* centres the bar on the screen */
+  margin-bottom: 1rem;
+}
+
+.site-nav {
+  padding: 0 8%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.4rem 0.4rem;                           /* space between labels: vertical, horizontal */
+  font-size: 1.05rem;
+}
+
+/* Each label */
+.site-nav a {
+  color: #111;                                  /* text colour */
+  background: transparent;
+  box-shadow: none;
+  text-decoration: none;
+  border: 0;
+  padding: 0.3rem 0.7rem;                       /* size of the box around the text */
+}
+
+/* Black box with white text: when the mouse is over a label, and for the page you are on */
+.site-nav a:hover,
+.site-nav a.active {
+  color: #fff;                                  /* text colour inside the box */
+  background: #111;                             /* box colour */
+  box-shadow: none;
+  border: 0;
+}
+
+/* On phones, centre the labels */
+@media (max-width: 30em) {
+  .site-nav {
+    justify-content: center;
+    padding: 0.5rem 0 0 0;
+  }
+}
