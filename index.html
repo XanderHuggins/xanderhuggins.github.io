@@ -131,7 +131,7 @@
 <div class="full-width-header">
   <object
     type="image/svg+xml"
-    data="/images/research-website-header-image-responsive_v2026.01.01.svg"
+    data="/images/cogs_splash.svg"
     class="header-image"
   ></object>
 </div>
@@ -142,8 +142,26 @@
         </h1>
 
         <div class="home-content">
-        <p>I&rsquo;ve recently joined the University of Glasgow as an Assistant Professor (UK Lecturer) of Global Terrestrial Water.</p>
-<p>I&rsquo;m building a Research Collective on Groundwater, Social-Ecological Systems, and Sustainability (CoGS³), where we will study freshwater interactions within the human-Earth system to help realise a sustainable and equitable water future for all.</p>
+        <style>
+  .intro { display: flex; align-items: center; gap: 1.25rem; }
+  .intro-photo { flex: 0 0 auto; width: clamp(110px, 20%, 240px); height: auto; }
+  .intro-text { flex: 1 1 0; min-width: 0; }
+  .intro-text p:first-child { margin-top: 0; }
+
+  /* Phones only (below about 480 px): photo centred above the text */
+  @media (max-width: 30em) {
+    .intro { flex-direction: column; align-items: stretch; }
+    .intro-photo { width: 140px; align-self: center; }
+    .intro-text { flex: none; }
+  }
+</style>
+<div class="intro">
+<img src="/images/xander-inset.svg" alt="Xander Huggins" class="intro-photo">
+<div class="intro-text">
+<p>I&rsquo;ve recently joined the University of Glasgow as an Assistant Professor (UK Lecturer) of Global Terrestrial Water.</p>
+<p>I&rsquo;m building a Research Collective on Groundwater, Sustainability, and Social-Ecological Systems (CoGS³), where we will study freshwater interactions within the human-Earth system to help realise a sustainable and equitable water future for all.</p>
+</div>
+</div>
 <div class="rounded-box">
 <div class="news-header"><span class="title">recent news</span><span class="hint">scroll for older news ↓</span></div>
 <div class="news-scroll">
