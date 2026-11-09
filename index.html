@@ -148,6 +148,17 @@
   .intro-text { flex: 1 1 0; min-width: 0; }
   .intro-text p:first-child { margin-top: 0; }
 
+  /* Logo set in line with the text */
+  .inline-logo {
+    display: inline;          /* overrides themes that make images block-level */
+    height: 1.5em;            /* scales with the font size; tune this */
+    width: auto;
+    vertical-align: -0.35em; /* bottom of the logo sits on the text baseline; tune this */
+    margin: -0em;
+    border: 0;
+    box-shadow: none;
+  }
+
   /* Phones only (below about 480 px): photo centred above the text */
   @media (max-width: 30em) {
     .intro { flex-direction: column; align-items: stretch; }
@@ -159,7 +170,7 @@
 <img src="/images/xander-inset.svg" alt="Xander Huggins" class="intro-photo">
 <div class="intro-text">
 <p>I&rsquo;ve recently joined the University of Glasgow as an Assistant Professor (UK Lecturer) of Global Terrestrial Water.</p>
-<p>I&rsquo;m building a Research Collective on Groundwater, Sustainability, and Social-Ecological Systems (CoGS³), where we will study freshwater interactions within the human-Earth system to help realise a sustainable and equitable water future for all.</p>
+<p>I&rsquo;m building a Research Collective on Groundwater, Sustainability, and Social-Ecological Systems, or <img src="/images/cogs_icon.svg" alt="CoGS³" class="inline-logo"> for short, where we will study freshwater interactions within the human-Earth system to help realise a sustainable and equitable water future for all.</p>
 </div>
 </div>
 <div class="rounded-box">
